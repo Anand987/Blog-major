@@ -175,6 +175,7 @@ def delete_post(post_id):
 
 
 # HOME ROUTE
+# ISSUE - str does not exist
 # @app.route("/user/<str:username>")
 # def user_posts(username):
 #     page = request.args.get("page", 1, type=int)
